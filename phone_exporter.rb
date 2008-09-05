@@ -202,7 +202,7 @@ class PhoneExporter
         for ph in phones
           name = get_name(row, who)
           line = "#{ph},#{id},#{name},#{school},#{grade},#{who},#{which}\n"
-          if school == 'kent'
+          if school == :kent
             @k_recs[ph] = line
           else
             @b_recs[ph] = line

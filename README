@@ -1,0 +1,7 @@
+emergency-phone-lists project
+
+Converts student and faculty phone data from PowerSchool into a form
+to be used with an emergency dialer system.  Canonicalizes and filters
+phone numbers for specific local area codes.
+
+Contact pzingg AT kentfieldschools FULLSTOP org for information.

@@ -204,8 +204,10 @@ class PhoneExporter
           line = "#{ph},#{id},#{name},#{school},#{grade},#{who},#{which}\n"
           if school == :kent
             @k_recs[ph] = line
-          else
+          elsif school == :bacich
             @b_recs[ph] = line
+          else
+            # ignore record for NPS students, etc.
           end
         end
       end
